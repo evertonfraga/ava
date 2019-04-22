@@ -85,6 +85,8 @@ test('one is one', t => {
 
 ### Helpers are not compiled when using a non-default test folder
 
+**FIXME**
+
 This is a [known issue](https://github.com/avajs/ava/issues/1319). You should put your tests in a folder called `test` or `__tests__`.
 
 ---

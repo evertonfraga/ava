@@ -419,11 +419,7 @@ stderr
 
   [1mUncaught exception in test/fixture/report/regular/bad-test-chain.js[22m
 
-  [90m~/test/fixture/report/regular/bad-test-chain.js:3[39m
-
-   [90m2:[39m                                           
-  [41m 3: test.serial.test('passes', t => t.pass());[49m
-   [90m4:[39m                                           
+  [90m~/test/fixture/report/regular/bad-test-chain.js:7[39m
 
   TypeError: _.default.serial.test is not a function
 
@@ -431,11 +427,10 @@ stderr
 
   [1mUncaught exception in test/fixture/report/regular/uncaught-exception.js[22m
 
-  [90m~/test/fixture/report/regular/uncaught-exception.js:5[39m
+  [90m~/test/fixture/report/regular/uncaught-exception.js:9[39m
 
-   [90m4:[39m   setTimeout(() => {                   
-  [41m 5:     throw new Error('Can/'t catch me');[49m
-   [90m6:[39m   });                                  
+   [90m8:[39m });
+  [41m 9:    [49m
 
   Error: Can't catch me
 

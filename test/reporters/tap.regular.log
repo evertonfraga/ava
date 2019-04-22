@@ -5,7 +5,7 @@ not ok 1 - TypeError: _.default.serial.test is not a function
   ---
     name: TypeError
     message: _.default.serial.test is not a function
-    at: 'Object.test (bad-test-chain.js:3:13)'
+    at: 'Object.<anonymous> (bad-test-chain.js:7:18)'
   ...
 ---tty-stream-chunk-separator
 # test/fixture/report/regular/bad-test-chain.js exited with a non-zero exit code: 1
@@ -40,7 +40,7 @@ not ok 8 - Error: Can't catch me
   ---
     name: Error
     message: Can't catch me
-    at: 'Timeout.setTimeout (uncaught-exception.js:5:9)'
+    at: 'Timeout.setTimeout [as _onTimeout] (uncaught-exception.js:9:11)'
   ...
 ---tty-stream-chunk-separator
 # test/fixture/report/regular/uncaught-exception.js exited with a non-zero exit code: 1

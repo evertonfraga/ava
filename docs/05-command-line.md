@@ -6,7 +6,7 @@ Translations: [Français](https://github.com/avajs/ava-docs/blob/master/fr_FR/do
 $ npx ava --help
 
   Usage
-    ava [<file|directory|glob> ...]
+    ava [<file> ...]
 
   Options
     --watch, -w             Re-run tests when tests and source files change
@@ -28,11 +28,14 @@ $ npx ava --help
     ava test-*.js
     ava test
 
-  Default patterns when no arguments:
-  test.js test-*.js test/**/*.js **/__tests__/**/*.js **/*.test.js
+  The above relies on your shell expanding the glob patterns.
+  Without arguments, AVA uses the following patterns:
+    test.js test-*.js test/**/*.js **/__tests__/**/*.js **/*.test.js
 ```
 
 *Note that the CLI will use your local install of AVA when available, even when run globally.*
+
+**FIXME**
 
 Directories are recursed, with all `*.js` files being treated as test files. Directories named `fixtures`, `helpers` and `node_modules` are *always* ignored. So are files starting with `_` which allows you to place helpers in the same directory as your test files.
 

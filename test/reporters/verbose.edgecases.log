@@ -5,10 +5,7 @@
 
   [1mUncaught exception in test/fixture/report/edge-cases/throws.js[22m
 
-  [90m~/test/fixture/report/edge-cases/throws.js:1[39m
-
-  [41m 1: throw new Error('throws');[49m
-   [90m2:[39m                           
+  [90m~/test/fixture/report/edge-cases/throws.js:3[39m
 
   Error: throws
 
@@ -20,11 +17,7 @@
 
   [1mUncaught exception in test/fixture/report/edge-cases/import-and-use-test-member.js[22m
 
-  [90m~/test/fixture/report/edge-cases/import-and-use-test-member.js:3[39m
-
-   [90m2:[39m                             
-  [41m 3: test('pass', t => t.pass());[49m
-   [90m4:[39m                             
+  [90m~/test/fixture/report/edge-cases/import-and-use-test-member.js:5[39m
 
   TypeError: (0 , _.test) is not a function
 
